@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(231, 193, 136);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Position the container */
+    top: 50%; /* Move the container down by 50% of the viewport height */
+    left: 50%; /* Move the container right by 50% of the viewport width */
+    transform: translate(-50%, -50%); /* Adjust the container's position relative to its own size */
+    border: 1px solid black;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(109, 94, 124);
+    border-radius: 30px;
+}
+
+.countdown {
+    align-content: cen;
+    font-size: 50px; /* Adjust font size for better visibility */
+    font-weight: bold;
+    color: aliceblue;   
+}
+h1 {
+    text-align: center;
+    color: rgb(56, 67, 189);
+    font-weight: bold;
+    font-size: 65px;
+  }
